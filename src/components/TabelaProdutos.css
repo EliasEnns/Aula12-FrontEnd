@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  tr:nth-child(even) {
+    background-color: #dddada;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  .centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
